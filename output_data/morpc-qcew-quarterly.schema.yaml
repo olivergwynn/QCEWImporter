@@ -63,6 +63,27 @@ fields:
   type: number
   description: Location quotient of the quarterly establishment count relative to
     the U.S.
+- name: lq_month1_emplvl
+  type: number
+  description: Location quotient of the emloyment level for the first month of a given quarter relative to the U.S.
+- name: lq_month2_emplvl
+  type: number
+  description: Location quotient of the emloyment level for the second month of a given quarter relative to the U.S.
+- name: lq_month3_emplvl
+  type: number
+  description: Location quotient of the emloyment level for the third month of a given quarter relative to the U.S.
+- name: lq_total_qtrly_wages
+  type: number
+  description: Location quotient of the total wages for a given quarter relative to the U.S
+- name: lq_taxable_qtrly_wages
+  type: number
+  description: Location quotient of the total taxable wages for a given quarter relative to the U.S.
+- name: lq_qtrly_contributions
+  type: number
+  description: Location quotient of the total contributions for a given quarter relative to the U.S.
+- name: lq_avg_wkly_wage
+  type: number
+  description: Location quotient of the average weekly wage for a given quarter relative to the U.S.
 - name: oty_disclosure_code
   type: string
   description: 1-character over-the-year disclosure code (either ' ' (blank) or 'N'
